@@ -103,7 +103,7 @@ public class Gui
         dataEntry.add(ipLabel, constraints);
         constraints = new GridBagConstraints();
 
-        JTextField ipField = new JTextField("127.0.0.1");
+        JTextField ipField = new JTextField("0.0.0.0");
         constraints.gridx = 1;
         constraints.gridy = 0;
         constraints.ipady = 20;
